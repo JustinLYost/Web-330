@@ -1,2 +1,7 @@
 # Web-330
-JavaScript 2
+# WEB 330 Enterprise JavaScript II
+## Contributors
+<ul>
+  <li>Professor Richard Krasso</li>
+  <li>Justin Yost</li>
+</ul>
