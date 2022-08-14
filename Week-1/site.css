@@ -1,13 +1,16 @@
 /* Gen Sites Sytle */
+/* Body Font */
 body {
     font-family: Oswald, Verdana, Arial, sans-serif;
   }
 
+/* Darkmode Color Change */
   .dark-mode {
     background-color: black;
     color: white;
   }
 
+/* Dark mode toggle button */
   #darkToggle{
     background-color: #3C275A; 
     border: none;
@@ -21,11 +24,13 @@ body {
     cursor: pointer;
   }
 
+/* div setting */
   #controlBar{
     width: 100%;
     height: 30px;
 }
 
+/* toggle placement */
 #exit{
     float: right;
 }
@@ -35,14 +40,15 @@ body {
     color-scheme: light dark; /* both supported */
   }
 
-
+/* Container Margins */
   #container {
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
   }
   
-  h1, h2, h3, h4 {
+/* Header Styles   */
+h1, h2, h3, h4 {
     background-color: #3C275A;
     color: white;
     border-style: solid;
@@ -51,20 +57,24 @@ body {
     padding: 10px;
   }
   
+/*    Link Style */
   a:link {
     color: #4F3674;
     text-decoration: none;
   }
   
+/*     Hover Style */
   a:hover {
     color: #4F3674;
     background: #D6A800;
   }
   
+/*     Visited Link Style */
   a:visited {
     color: #3C275A;
   }
   
+/*     Return Home Link Style */
   .return-home.link {
     text-decoration: none;
     color: #4F3674;
@@ -78,6 +88,7 @@ body {
     color: #3C275A;
   }
   
+/*     Card Style */
   .cardResult {
     margin-top: 50px;
     text-align: center;
@@ -109,19 +120,3 @@ body {
     rgba(0, 0, 0, 0.2);
   }
   
-  /* @media (prefers-color-scheme: dark) {
-    Dark theme styles go here
-
-  }
-   
-  @media (prefers-color-scheme: light) {
-    Light theme styles go here
-
-  } */
-
-  /* Example of apply it via media query dark theme to a picture.
-@media (prefers-color-scheme: dark) {
-  img {
-    filter: brightness(.8) contrast(1.2);
-  }
-} */
