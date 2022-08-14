@@ -4,6 +4,5 @@
 <ul>
   <li>Professor Richard Krasso</li>
   <li>Justin Yost</li>
-  <li>https://justinlyost.github.io/Web-330/Week-1/index.html</li>
 </ul>
 
