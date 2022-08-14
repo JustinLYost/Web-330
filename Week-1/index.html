@@ -1,12 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <meta name="viewport" content="width=device-width">
   <head>
     <meta charset="utf-8">
     <!--     Light/Dark Meta Tag -->
     <meta name="color-scheme" content="dark light">
 <!--     Link to CSS File -->
-    <link rel="stylesheet" href="C:\Users\justi\OneDrive\Documents\Web 330 JavaScript II\Week 1\site.css">
+    <link rel="stylesheet" href="C:\Users\justi\OneDrive\Documents\Web 330 JavaScript II\Week-1\site.css">
 <!--     Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,7 +74,7 @@ function myFunction() {
         {
             const theme = localStorage.getItem("mode") || "light-theme";
             const iconMode = localStorage.getItem("iconMode") || "fa-toggle-off";
-            const iconText = localStorge.getItem("iconText") || "Light Mode";
+            const iconText = localStorage.getItem("iconText") || "Light Mode";
 
             document.body.classList.value = theme;
             document.getElementById("icon-mode").classlist.ass(iconMode);
@@ -93,10 +93,3 @@ function myFunction() {
     
   </body>
 </html>
-
-<!-- <picture>
-    <!- Use this image if the user's OS setting is light or unset -->
-    <!-- <source srcset="photo-light.png" media="(prefers-color-scheme: light) or (prefers-color-scheme: no-preference)"> -->
-    <!-- Use this image if the user's OS setting is dark -->
-    <!-- <source srcset="photo-dark.png" media="(prefers-color-scheme: dark)">
-  </picture> --> 
