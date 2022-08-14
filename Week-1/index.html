@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="color-scheme" content="dark light">
+    <link rel="stylesheet" href="C:\Users\justi\OneDrive\Documents\Web 330 JavaScript II\Week 1\site.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>WEB 231 – Enterprise JavaScript I</title>
+  </head>
+  <body>
+    
+   <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+  
+<div id='controlBar' style='-webkit-app-region:drag'>
+    <div id='exit'>
+    <button id="darkToggle" onclick="myFunction()">Toggle Light/Dark Mode</button>
+</div>
+  </div>
+
+
+  <div class="container" id="container">
+    <h1>Justin Yost's Landing Page</h1>
+    <h2>WEB 231 Enterprise JavaScript II</h2>
+    <hr>
+    <h3>Weekly Assignments</h3>
+    <ul>
+      <li><a href="">Assignment 2.2</a></li>
+      <li><a href="">Assignment 3.2</a></li>
+      <li><a href="">Assignment 4.2</a></li>
+      <li><a href="">Assignment 5.2</a></li>
+      <li><a href="">Assignment 6.2</a></li>
+      <li><a href="">Assignment 7.2</a></li>
+      <li><a href="">Assignment 8.2</a></li>
+     
+    </ul>
+    <h3>Projects</h3>
+    <ul>
+      <li><a href="">Personal Portfolio</a></li>
+      <li><a href="">WEB 237 Landing Page</a></li>
+    </ul>
+    <h4>Important Links</h4>
+    <ul>
+      <li><a href="https://github.com/buwebdev/web-330">WEB 330’s GitHub Repository</a></li>
+      <li><a href="https://bruinconnect.bellevue.edu/">BRUIN Connect</a></li>
+      <li><a href="https://validator.w3.org/">W3C HTML Validator</a></li>
+      <li><a href="http://jigsaw.w3.org/css-validator/">W3C CSS Validator</a></li>
+      <li><a href="https://www.w3schools.com/html/">HTML Tutorial</a></li>
+      <li><a href="https://www.w3schools.com/js/js_best_practices.asp">JavaScript Best Practices</a></li>
+      
+    </ul>
+    </div>
+
+    <script>
+        function setDefaultTheme()
+        {
+            const theme = localStorage.getItem("mode") || "light-theme";
+            const iconMode = localStorage.getItem("iconMode") || "fa-toggle-off";
+            const iconText = localStorge.getItem("iconText") || "Light Mode";
+
+            document.body.classList.value = theme;
+            document.getElementById("icon-mode").classlist.ass(iconMode);
+            document.getElementById("icon-text").innerHTML = iconText;
+        }
+    </script>
+
+    <script>
+        setDefaultTheme();
+
+        function toggleMode(x){
+            let colorTheme = document.body.classList;
+            let iconMode = x.classList;
+        }
+    </script>
+    
+  </body>
+</html>
+
+<!-- <picture>
+    <!- Use this image if the user's OS setting is light or unset -->
+    <!-- <source srcset="photo-light.png" media="(prefers-color-scheme: light) or (prefers-color-scheme: no-preference)"> -->
+    <!-- Use this image if the user's OS setting is dark -->
+    <!-- <source srcset="photo-dark.png" media="(prefers-color-scheme: dark)">
+  </picture> --> 
