@@ -1,0 +1,116 @@
+/* Gen Sites Style */
+body {
+    font-family: Oswald, Verdana, Arial, sans-serif;
+}
+
+/* For 3 of the result outputs */
+#datadiv {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* ID alignments and margins */
+#date,
+#length,
+#original,
+#reversed {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3%;
+}
+
+/* Header Styles */
+h1,
+h2,
+h4 {
+    background-color: #3C275A;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D6A800;
+    padding: 10px;
+}
+
+/* Link Styles */
+a:link {
+    color: #453674;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4F3674;
+    background: #D6A800;
+}
+
+a:visited {
+    color: #3C275A;
+}
+
+.return-home.link {
+    text-decoration: none;
+    color: #4F3674;
+}
+
+.return-home.hover {
+    color: #4F3674;
+}
+
+.return-home.visited {
+    color: #3C275A;
+}
+
+/* Card Styles */
+.cardResult {
+    margin-top: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+    max-width: 40%;
+    max-height: 70%;
+    margin-left: 30%;
+}
+
+.card {
+    text-align: center;
+    box-shadow: 0 4px 8px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+    max-width: 40%;
+    max-height: 80%;
+    margin-left: 30%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.cardResult:hover {
+    box-shadow: 0 8px 16px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* app header style */
+#app-header {
+    text-align: center;
+    max-width: 100%;
+}
+
+/* Results button styles */
+#btnDisplayPhase {
+    background-color: #4F3674;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    max-width: 180px;
+    max-height: 30px;
+    margin: 6px;
+}
+
+#btnDisplayPhase:hover {
+    background-color: #D6A800;
+    color: white;
+}

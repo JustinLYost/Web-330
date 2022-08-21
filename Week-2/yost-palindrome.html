@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Link to CSS File -->
+        <link
+            rel="stylesheet"
+            href="C:\Users\justi\OneDrive\Documents\Web 330 JavaScript II\Week-2\palindrome.css">
+        <!-- Link to Js File -->
+        <script
+            type="text/javascript"
+            src="C:\Users\justi\OneDrive\Documents\Web 330 JavaScript II\Week-2\Palindrome.js"></script>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+            rel="stylesheet">
+
+        <title>WEB 330 – Enterprise JavaScript II</title>
+    </head>
+    <body>
+        <div class="top-container" id="app-header">
+            <h1 class="app-header">Welcome to the Palindrome App!</h1>
+        </div>
+
+        <!-- Upper Card -->
+        <div class="card">
+            <div class="container">
+
+                <!-- Card Title -->
+                <h2 id="topCardTitle">Palindrome Checker</h2>
+
+                <!-- Card label and input -->
+                <label id="topCardLabel" for="input-text">Phase Value:</label>
+                <input type="text" id="cardInput" name="textInput">
+
+                <!-- Card Submit Button with onclick attached -->
+                <div class="submit">
+                    <input
+                        type="submit"
+                        value="Check Phase"
+                        id="btnDisplayPhase"
+                        onclick="clickFunction()">
+                </div>
+            </div>
+        </div>
+
+        <!-- Lower Card Start-->
+        <div class="cardResult">
+            <div class="containerResult">
+                <div id="resultCard">
+                    <!-- Card Title -->
+                    <h2 id="resultTitle">Palindrome Results</h2>
+
+                    <!-- JavaScript Output P tag -->
+                    <div id="datadiv">
+                        <p id="date"></p>
+                        <p id="original"></p>
+                        <p id="reversed"></p>
+                        <p id="length"></p>
+                    </div>
+                    <h3 id="result"></h3>
+
+                    <!-- Palindrome JavaScript Removed and added to external file -->
+                    
+                    <!-- <script> function clickFunction() { var x =
+                    document.getElementById("cardInput").value; var low = x.toLowerCase(); var str =
+                    low.split(""); var rev = str.reverse(); var join = rev.join(""); var p = (low +"
+                    is a palindrome!"); var n = (low +" is not a palindrome!"); //Thanks for the
+                    help:
+                    https://www.freecodecamp.org/news/how-to-reverse-a-string-in-javascript-in-3-different-ways-75e4763c68cb/
+                    // IF ELSE STATEMENTS if(x.length <= 0){
+                    document.getElementById("result").innerHTML= "You need to enter something! Maybe
+                    nothing is still a Palindrome!"; }else if(low !== join){
+                    document.getElementById("result").innerHTML= n; }else if(low == join){
+                    document.getElementById("result").innerHTML= p; } // date part of app var date =
+                    new Date(); var nexDate = date.toDateString(); var today = ("Date: "+ nexDate);
+                    document.getElementById("date").innerHTML= today; // Original Phase printout var
+                    oPhase = ('Original Phase: '+ low)
+                    document.getElementById("original").innerHTML= oPhase; // Reversed Phase
+                    Printout var rPhase = ('Reversed Phase: '+ join)
+                    document.getElementById("reversed").innerHTML= rPhase; // Length Printout var
+                    len = low.length; var nPhase = ('Phase Length: '+ len)
+                    document.getElementById("length").innerHTML= nPhase; } </script> -->
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Return Home to Landing Page -->
+        <a id="returnConversion" class="return-home" href="">Return</a>
+
+    </body>
+</html>
